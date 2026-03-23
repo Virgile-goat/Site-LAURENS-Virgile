@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Site LAURENS Virgile TDA</title>
+
+    <style>
+        /* Fond rouge clair */
+        body {
+            background-color: #ffcccc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Titre principal */
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: #990000;
+            margin-top: 20px;
+        }
+
+        /* Sous-titres */
+        h2 {
+            text-align: center;
+            color: #660000;
+        }
+
+        /* Texte lisible */
+        li, a {
+            color: #333;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        /* Boutons animés */
+        a {
+            background-color: #ff6666;
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: all 0.3s ease;
+            color: white;
+        }
+
+        a:hover {
+            background-color: #cc0000;
+            transform: scale(1.1);
+        }
+
+        a:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Site LAURENS Virgile TDA</h1>
+
+    <h2>Liste des articles</h2>
+    <h2>Sommaire</h2>
+
+    <ul>
+        <li><a href="foot.html">Articles de football</a></li>
+        <li><a href="volley.html">Articles de volleyball</a></li>
+        <li><a href="hand.html">Articles de handball</a></li>
+        <li><a href="Formulaire.html">Formulaire d'inscription</a></li>
+    </ul>
+
+</body>
+</html>
